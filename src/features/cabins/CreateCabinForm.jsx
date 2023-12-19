@@ -67,7 +67,6 @@ function CreateCabinForm({ cabinToEdit = {}, onCloseModal }) {
           })}
         />
       </FormRow>
-
       <FormRow label="Maximum capacity" error={errors?.maxCapacity?.message}>
         <Input
           type="number"
@@ -82,7 +81,6 @@ function CreateCabinForm({ cabinToEdit = {}, onCloseModal }) {
           })}
         />
       </FormRow>
-
       <FormRow label="Regular price" error={errors?.regularPrice?.message}>
         <Input
           type="number"
@@ -97,7 +95,6 @@ function CreateCabinForm({ cabinToEdit = {}, onCloseModal }) {
           })}
         />
       </FormRow>
-
       <FormRow label="Discount" error={errors?.discount?.message}>
         <Input
           type="number"
@@ -112,7 +109,6 @@ function CreateCabinForm({ cabinToEdit = {}, onCloseModal }) {
           })}
         />
       </FormRow>
-
       <FormRow
         label="Description for website"
         error={errors?.description?.message}
@@ -127,7 +123,6 @@ function CreateCabinForm({ cabinToEdit = {}, onCloseModal }) {
           })}
         />
       </FormRow>
-
       <FormRow label="Cabin photo">
         <FileInput
           id="image"
@@ -137,7 +132,8 @@ function CreateCabinForm({ cabinToEdit = {}, onCloseModal }) {
           })}
         />
       </FormRow>
-
+      {/* https://drsgmemdvwanqsgujocv.supabase.co/storage/v1/object/public/cabin-images/cabin-001.jpg
+      https://drsgmemdvwanqsgujocv.supabase.co/storage/v1/object/public/cabin-Images/0.03231691662566494-cabin-006.jpg */}
       <FormRow>
         {/* type is an HTML attribute! */}
         <Button
