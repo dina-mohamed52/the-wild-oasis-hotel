@@ -55,7 +55,7 @@ Welcome to the Wild Oasis Hotel System! This project is a web application for ma
 
 ## Demo
 
-Check out the live demo: [Wild Oasis Hotel System Demo](https://wild-oasis-hotel-system.netlify.app/login)
+Check out the live demo: [Wild Oasis Hotel System Demo](https://wild-oasis-hotel2.netlify.app/login)
 
 ## Features
 
